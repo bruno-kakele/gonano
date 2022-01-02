@@ -10,9 +10,11 @@ Check out their project for a complete README. The goal of this fork is to add s
 Install
 -------
 
-    go get github.com/bruno-kakele/gonano@v0.1.17
+    git clone -b v0.1.17 https://github.com/bruno-kakele/gonano.git
+    cd gonano
+    go install
     
-Replace the `0.1.17` with the desired version.
+Replace the `0.1.17` with the desired release version. Forking a Go module is tricky, and the `go get` command was generating some odd results. For simplicity, clone the desired release and use `go install` (the former is deprecated anyways).
 
 Extra commands
 ------------------
