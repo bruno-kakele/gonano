@@ -1,4 +1,4 @@
-module github.com/bruno-kakele/gonano
+module github.com/hectorchu/gonano
 
 go 1.15
 
@@ -11,7 +11,6 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
 	github.com/gorilla/websocket v1.4.2
-	github.com/hectorchu/gonano v0.1.16
 	github.com/karalabe/hid v1.0.0
 	github.com/kr/text v0.2.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
