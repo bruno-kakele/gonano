@@ -2,8 +2,6 @@ module github.com/hectorchu/gonano
 
 go 1.15
 
-replace github.com/hectorchu/gonano => github.com/bruno-kakele/gonano v0.1.17
-
 require (
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e
 	github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec
