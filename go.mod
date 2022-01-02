@@ -1,4 +1,4 @@
-module github.com/hectorchu/gonano
+module github.com/bruno-kakele/gonano
 
 go 1.15
 
