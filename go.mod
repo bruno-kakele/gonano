@@ -2,6 +2,8 @@ module github.com/bruno-kakele/gonano
 
 go 1.15
 
+replace github.com/hectorchu/gonano => github.com/bruno-kakele/gonano v0.1.17
+
 require (
 	github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e
 	github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec
@@ -9,7 +11,7 @@ require (
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
 	github.com/gorilla/websocket v1.4.2
-	github.com/bruno-kakele/gonano v0.1.17-alpha
+	github.com/hectorchu/gonano v0.1.16
 	github.com/karalabe/hid v1.0.0
 	github.com/kr/text v0.2.0 // indirect
 	github.com/magiconair/properties v1.8.5 // indirect
